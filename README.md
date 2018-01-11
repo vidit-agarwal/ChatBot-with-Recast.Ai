@@ -68,6 +68,7 @@ If you want a custom intent, you can build it from scratch. Here, we want the bo
 
 Click on + CREATE on the right of the search field, and choose a name for your intent:
 
+Repeat this process for intent that gathers negative reactions to your jokes:
 
 ```
 
