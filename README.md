@@ -18,6 +18,7 @@ You will have a functional chatbot, and you will know how to:
 
 <br /> To begin, `create an account on Recast.AI! It’s free.`
 <br /> Once you’re logged in, it’s time to create your first bot. Click on the button `“Start with a template”, or just on + NEW BOT` in the header section.
+![alt-text](recast_ss/recast_ai.png)
 <br />Choose `“Create a complete chatbot”.`
 <br />You can choose one or many pre-defined skills for you bot. This will help you get started faster. Just select `“Greetings”` for now, but I encourage you to check the others later.
 <br />Choose your name. `“joke-bot”` would be appropriate
