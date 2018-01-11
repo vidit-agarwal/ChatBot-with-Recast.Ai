@@ -27,4 +27,16 @@ You will have a functional chatbot, and you will know how to:
 <br />You can keep your bot `public` as there is no private info, but you can change this setting later.
 <br /> ![alt text](recast_ss/make_bot.png)
 
+```
+There are 5 phases in your bot life, represented on our platform through the use of 5 tabs:
+
+  Train – Teach your bot what it needs to understand
+  Build – Create your conversational flow with our Bot Builder tool
+  Code – Connect your bot with external APIs or a database
+  Connect – Ship your bot to one or several messaging platforms
+  Monitor – Train your bot to make it sharper, and get insights on its usage!
+
+For this repo I’ll skip the “Code” part, because we won’t need any external information
+```
+
 ### For complete and detailed reference : https://recast.ai/blog/build-your-first-bot-with-recast-ai/
