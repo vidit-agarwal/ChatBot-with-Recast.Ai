@@ -104,7 +104,25 @@ You will see which intent was detected under “He’s referring to”. If the a
 
 Once you’re happy with your bot intent detection, it’s time to move to next phase: building your bot flow.
 ```
+## BUILD AND MANAGE THE CONVERSATION FLOW
+```
+Now that the brain of your bot is all filled up, click on the Build tab.
 
+The Build tab is where you find Bot Builder. It helps you construct the conversation flow of your bot using Skills.
+```
+### WHAT IS A SKILL?
+```
+Each Skill represents one thing that your bot knows how to do, and they can interact with each other. Your skill can be a complicated one – such as managing payment by credit or simple – answering basic questions
 
+When you create a new bot, forking skills you already made to the new one will keep making your bots more powerful. You can also fork skills created by other people on the platform, so you don’t have to reinvent the wheel!
+
+If you chose the pre-defined skill “Greetings” during the creation of your bot, it will already be in your interface.
+```
+<b>A skill has four parts:</b>
+
+``` ```<b>Readme:</b> Where you explain the purpose of your skill.<br />
+``` ```<b>Triggers:</b> Where you define why this skill should be activated after a user message<br />
+``` ```<b>Requirements:</b> Describes what information this skill has to collect, and what questions need to be asked to fulfill the requirements.<br />
+``` ```<b>Actions:</b> What to do once the requirements are fulfilled.<br />
 
 ### For complete and detailed reference : https://recast.ai/blog/build-your-first-bot-with-recast-ai/
