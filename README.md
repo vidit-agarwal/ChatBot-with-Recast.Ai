@@ -1,6 +1,8 @@
 # ChatBot-with-Recast.Ai
 Build your first bot with Recast.AI
 
+## `No Coding Required`
+
 ```
 When you’re a beginner bot builder, learning about natural language understanding, conversation flows and messaging platforms can feel a bit overwhelming.
 
