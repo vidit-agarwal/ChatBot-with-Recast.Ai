@@ -71,5 +71,29 @@ Click on + CREATE on the right of the search field, and choose a name for your i
 Repeat this process for intent that gathers negative reactions to your jokes:
 
 ```
+## ADD EXPRESSIONS
+
+```
+Now that we have intents, we need to populate them with various expressions. An expression is the name of a sentence added to an intent.
+
+A golden rule would be to add 20 expressions to an intent for a development bot, and 50 or more for a production bot.
+
+Click on an intent and add sentences you want your bot to understand. Put yourself in the shoes of the people talking to your bot.What could they possibly ask? Enter a new expression by typing it into the field Add an expression. Here are some examples:
+
+Laughs:
+
+    hahah that’s hilarious
+    ROFL you’re good!
+    That, my friend, was an amazing joke.
+    I haven’t laughed that much in a long time!
+    
+Lame:
+
+    You have no sense of humour whatsoever.
+    That’s both terrible and offensive.
+    What the heck was that?
+    Try harder, that was a very bad joke.
+
+```
 
 ### For complete and detailed reference : https://recast.ai/blog/build-your-first-bot-with-recast-ai/
