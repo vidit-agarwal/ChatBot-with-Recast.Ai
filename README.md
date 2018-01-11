@@ -93,7 +93,18 @@ Lame:
     That’s both terrible and offensive.
     What the heck was that?
     Try harder, that was a very bad joke.
-
 ```
+## TEST YOUR BOT
+```
+Now that your bot is full of expressions, let’s test it with the console:
+
+Click on the TEST bubble icon on the top right, and select the tab “Analyse text”. Type a sentence you have not trained your bot with: “Botty bot, can you tell me a joke please?”
+
+You will see which intent was detected under “He’s referring to”. If the algorithm did not detect an intent, or detected an invalid intent, that means that you need to train your bot with more expressions.
+
+Once you’re happy with your bot intent detection, it’s time to move to next phase: building your bot flow.
+```
+
+
 
 ### For complete and detailed reference : https://recast.ai/blog/build-your-first-bot-with-recast-ai/
