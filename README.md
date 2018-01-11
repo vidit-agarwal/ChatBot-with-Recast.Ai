@@ -61,5 +61,14 @@ If you chose the pre-defined Skill “Greetings” when you setup your bot, you 
 
 As Recast.AI is collaborative, you do not have to recreate each intent every time! You can ‘fork’ an intent someone already created to clone it right into your bot. Since we need to understand that our user wants to be told a joke, let’s find if the community has already created this intent for us.
 ```
+## CREATE A NEW INTENT
+
+```
+If you want a custom intent, you can build it from scratch. Here, we want the bot to understand when someone laughs at the joke.
+
+Click on + CREATE on the right of the search field, and choose a name for your intent:
+
+
+```
 
 ### For complete and detailed reference : https://recast.ai/blog/build-your-first-bot-with-recast-ai/
