@@ -25,3 +25,4 @@ You will have a functional chatbot, and you will know how to:
 <br />Add a description. `“My awesome and funny joke bot”` or something less cocky
 <br />Set `English` as the default language.
 <br />You can keep your bot `public` as there is no private info, but you can change this setting later.
+<br /> ![alt text](recast_ss/make_bot.png)
