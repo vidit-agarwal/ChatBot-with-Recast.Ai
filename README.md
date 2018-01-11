@@ -26,3 +26,5 @@ You will have a functional chatbot, and you will know how to:
 <br />Set `English` as the default language.
 <br />You can keep your bot `public` as there is no private info, but you can change this setting later.
 <br /> ![alt text](recast_ss/make_bot.png)
+
+### For complete and detailed reference : https://recast.ai/blog/build-your-first-bot-with-recast-ai/
