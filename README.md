@@ -125,4 +125,15 @@ If you chose the pre-defined skill “Greetings” during the creation of your b
 ``` ```<b>Requirements:</b> Describes what information this skill has to collect, and what questions need to be asked to fulfill the requirements.<br />
 ``` ```<b>Actions:</b> What to do once the requirements are fulfilled.<br />
 
+```
+If you navigate through the tabs, you’ll see that this skill is structured as follows:
+
+      1) It is triggered if the intention greetings or the intention goodbye are matched.
+      2) It has no requirements, because it does not need to collect additional information. That means that it will execute actions directly after a trigger.
+      3) It has two possible actions: If the intention matched is greetings, it sends a random welcoming message chosen from a list, and if the intention is goodbye, it does the same thing, but picks the message from a different list
+
+It’s time to create our own Skill with the same structure.
+```
+
+
 ### For complete and detailed reference : https://recast.ai/blog/build-your-first-bot-with-recast-ai/
