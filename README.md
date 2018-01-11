@@ -38,5 +38,18 @@ There are 5 phases in your bot life, represented on our platform through the use
 
 For this repo I’ll skip the “Code” part, because we won’t need any external information
 ```
+## TRAIN YOUR BOT TO UNDERSTAND HUMAN LANGUAGE
+```
+This is the brain of your bot, where all its understanding is gathered, divided into intents.
 
+An intent is a “box” of sentences that all carry the same meaning, even though they can be very different to one another. When a user sends some text to your bot, our algorithm compares it to the phrases in your intents. Then it checks if it’s close enough to one of them and decides what the intention of the message is.
+
+For example:
+
+    Are you a bot?
+    You reply so fast, I’m sure you must be some kind of robot.
+    Am I speaking to a human or not?
+
+are all different, but they all ask the same question that we can can sum up as: Are you a bot? Well, that would make a great intent! If your bot is able to recognize this question, you can prepare a smart reaction, like “I’m a robot and I’m proud of it “.
+```
 ### For complete and detailed reference : https://recast.ai/blog/build-your-first-bot-with-recast-ai/
