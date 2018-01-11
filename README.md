@@ -135,5 +135,41 @@ If you navigate through the tabs, you’ll see that this skill is structured as 
 It’s time to create our own Skill with the same structure.
 ```
 
+## BUILD YOUR OWN SKILL
+
+```
+Go back to the Build tab and click on + Add a new skill on the left.
+
+You have three different types of skills: Business, Floating, and Fallback. On the one hand, Business and Floating have no structural differences. Yet differentiating the two types of skill helps when you have a lot of them. Fallback skills, on the other hand, trigger when no other skill has their Triggers fulfilled after a user message. Most of the time, you’ll have only one of this kind, where you can remind the user what your bot can do, and ask them to rephrase.
+
+Our skill will be of Floating type. Give it the name you want, I chose tell-me-a-joke.
+
+Go to the Triggers tab. We want to activate our skill if one of the three intentions we created are matched.
+
+Don’t forget to change the condition to OR, since it is an AND condition by default and we want to activate our skill when any of these intentions are matched.
+
+We won’t need to do anything in the Requirements, because we don’t have anything to ask. But you can improve the bot by asking for some information there, like what kind of jokes they prefer, or how old they are if you want to add some adult jokes.
+
+Head to the Actions tab and create your first message group.
+
+Click on ADD CONDITION to trigger messages and add the condition:If @greetings is-present. The “@” stands for intent type. We’ll cover other types later.
+
+Then choose the action type “SEND MESSAGE”, choose Text format and type the best joke you know.
+
+```
+## CONNECT YOUR BOT TO A MESSAGING PLATFORM
+
+```Now, it’s time to let go the test console and deploy your bot to a public messaging platform.
+
+Go to the Connect tab, choose the messaging platform you prefer and follow the instructions.
+
+You won’t have anything else to do other than the initial configuration to deploy your bot to a new channel. For this reason, you should not hesitate to configure multiples to broaden your audience!
+
+Beware that some platforms are not as powerful as others. For example, Telegram is very easy to configure but does not support GIF images, so you should adapt your bot accordingly.
+
+If you don’t know where to start, Facebook Messenger is a very powerful platform with a large audience.
+
+```
+
 
 ### For complete and detailed reference : https://recast.ai/blog/build-your-first-bot-with-recast-ai/
