@@ -52,4 +52,14 @@ For example:
 
 are all different, but they all ask the same question that we can can sum up as: Are you a bot? Well, that would make a great intent! If your bot is able to recognize this question, you can prepare a smart reaction, like “I’m a robot and I’m proud of it “.
 ```
+## FORK INTENTS
+
+```
+All bots should understand basic things such as ‘greetings’, ‘agree’, ‘disagree’, or when a user asks for help.
+
+If you chose the pre-defined Skill “Greetings” when you setup your bot, you will already have two intents: goodbye and greetings.
+
+As Recast.AI is collaborative, you do not have to recreate each intent every time! You can ‘fork’ an intent someone already created to clone it right into your bot. Since we need to understand that our user wants to be told a joke, let’s find if the community has already created this intent for us.
+```
+
 ### For complete and detailed reference : https://recast.ai/blog/build-your-first-bot-with-recast-ai/
